@@ -1,0 +1,261 @@
+html {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+.logo:hover {
+  color: #2196f3;
+}
+.logo::before {
+  content: "Web";
+  color: #2196f3;
+}
+.navigation-list li a {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.navigation-list li a:hover,
+.navigation-list li a:focus {
+  color: #2196f3;
+}
+.navigation-list > li {
+  list-style: none;
+}
+.contact-list li a {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+.contact-list > li {
+  list-style: none;
+}
+.contact-list li a:hover {
+  color: #2196f3;
+}
+.navigation-list {
+  display: flex;
+  gap: 50px;
+}
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
+.navigation {
+  flex-grow: 1;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+  padding: 0px 100px;
+}
+.service-section {
+  padding: 95px 0px;
+}
+.button-list li button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+.button-list > li {
+  list-style: none;
+}
+.button-list li button:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.button-item {
+  padding: 5px 20px;
+}
+
+.all {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.all .image {
+  width: 360px;
+  height: 300px;
+}
+.all .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.all .category {
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.all-item {
+  border: 1px solid #eeeeee;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 115px;
+}
+.footer-logo:hover {
+  color: #2196f3;
+}
+.footer-logo::before {
+  content: "Web";
+  color: #2196f3;
+}
+.adress {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-section li {
+  list-style: none;
+}
+.footer-contact-list {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-contact-list:hover {
+  color: #2196f3;
+}
+.footer-section {
+  background: #2f303a;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 60px 0px;
+}
+.adress-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.page-title {
+  background: #2f303a;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 350px;
+  gap: 30px;
+  align-items: center;
+}
+.title-section {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.request-button {
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+.work-section li {
+  list-style: none;
+}
+.work-section {
+  display: flex;
+  gap: 30px;
+  margin: 95px 0px;
+  align-content: space-around;
+}
+.small-title {
+  display: flex;
+  padding-bottom: 10px;
+}
+.pic-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.pic-items li {
+  list-style: none;
+}
+.pic-items {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 95px;
+}
+.team-section li {
+  list-style: none;
+}
+.team-section {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 95px;
+  justify-content: space-evenly;
+}
+.team-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+* {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-inline-end: 0px;
+}
