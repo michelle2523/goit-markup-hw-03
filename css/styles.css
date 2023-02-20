@@ -66,11 +66,11 @@ html {
   display: flex;
   align-items: center;
   height: 80px;
-  border-bottom: 1px solid #ececec;
-  padding: 0px 100px;
+  padding: 0px 40px;
 }
 /* ButtonsSection */
 .service-section {
+  border-top: 1px solid #ececec;
   padding: 95px 0px;
 }
 .button-list li button {
